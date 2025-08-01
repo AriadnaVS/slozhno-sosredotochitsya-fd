@@ -22,6 +22,10 @@ p {
   margin: 0;
 }
 
+h4 {
+  font-weight: normal;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -38,5 +42,40 @@ a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit;
+  line-height: 1;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  block-size: 26px;
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.decorated-zone::before {
+  top: var(--corner-offset);
+  right: var(--corner-offset);
+  border-top: 1px solid var(--decor-color);
+  border-right: 1px solid var(--decor-color);
+}
+
+.decorated-zone::after {
+  bottom: var(--corner-offset);
+  left: var(--corner-offset);
+  border-bottom: 1px solid var(--decor-color);
+  border-left: 1px solid var(--decor-color);
+}
+
+.title-decor {
+  background-color: var(--decor-bg);
+  color: var(--decor-text);
 }

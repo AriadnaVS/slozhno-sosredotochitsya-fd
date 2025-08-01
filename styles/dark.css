@@ -9,4 +9,26 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
+    --main-bg-color: #000028;
+    --accent-color: #ff0070;
+    --text-color: #f1b2ce;
+    --title-color: #db00ff;
+    --header-text: #000028;
+    --bg-image: var(--bg-image-dark);
+    --decor-color: var(--accent-color);
+    --decor-bg: var(--accent-color);
+    --decor-text: var(--header-text);
+    --current-title-shadow: var(--title-shadow);
+    --button-hover: rgba(255, 0, 112, 0.4);
+    --header-description-bg: var(--accent-color);
+    --header-description-text: var(--header-text);
+    --rec-color: var(--accent-color);
+    --menu-button-color: var(--accent-color);
+  }
+  
+  .theme-dark .header__rec,
+  .theme-dark .header__rec::after,
+  .theme-auto .header__rec,
+  .theme-auto .header__rec::after {
+    color: var(--rec-color);
+  }
