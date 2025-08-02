@@ -2,14 +2,17 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
 :root {
+  /* Цвета */
   --main-bg-color: #000028;
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --title-color: #db00ff;
   --header-text: #000028;
   --title-shadow: #ff0070;
-  
+
+  /* Светлая тема */
   --light-bg-color: #fff1f7;
   --light-accent: #ff8dcb;
   --light-text: #353430;
@@ -17,17 +20,19 @@
   --light-header-text: #353430;
   --light-title-shadow: #ff8dcb;
 
-  --main-font: 'IBM Plex Mono', monospace;
+  /* Шрифты */
+  --main-font: "IBM Plex Mono", monospace;
   --base-font-size: 18px;
   --base-line-height: 1.3;
 
-  --bg-image-dark: url(../images/cover-image-dark.png);
-  --bg-image-light: url(../images/cover-image-light.png);
+  /* Фоны */
+  --bg-image-dark: url(/images/cover-image-dark.png);
+  --bg-image-light: url(/images/cover-image-light.png);
 
+  /* Высоты блоков */
   --mobile-header-height: 668px;
   --tablet-header-height: 1024px;
   --desktop-header-height: 768px;
-  
   --gallery-row-height-1: 192px;
   --gallery-row-height-2: 230px;
   --gallery-row-height-3: 318px;
@@ -35,34 +40,42 @@
   --desktop-gallery-row-height-2: 315px;
   --desktop-gallery-row-height-3: 433px;
 
-  --mobile-corner-offset: 9px;
+  /* Отступы */
+  --mobile-corner-offset: 10px;
   --tablet-corner-offset: 20px;
   --desktop-corner-offset: 20px;
-  
   --mobile-section-padding: 10px;
   --tablet-section-padding: 20px;
   --desktop-section-padding: 20px;
+  --mobile-margin: 30px 10px 10px 10px;
+  --tablet-margin: 60px 0px 20px 0px;
+  --desktop-margin: 0px 20px 20px 20px;
 
+  /* REC элемент */
   --rec-icon-size: 9px;
   --rec-icon-offset: 8px;
 
-  --mobile-rec-to-menu: 71px;
-  --mobile-menu-to-content: 71px;
-  --mobile-title-to-description: 54px;
+  /* Позиционирование header (mobile) */
+  --mobile-rec-to-menu: 74px;
+  --mobile-menu-to-content: 68px;
+  --mobile-title-to-description: 51px;
   --mobile-description-to-bottom: 45px;
   --mobile-description-width: 355px;
 
+  /* Позиционирование header (tablet) */
   --tablet-rec-to-menu: 190px;
   --tablet-menu-to-content: 175px;
   --tablet-title-to-description: 162px;
   --tablet-description-to-bottom: 183px;
   --tablet-description-width: 364px;
 
+  /* Позиционирование header (desktop) */
   --desktop-menu-to-content: 273px;
   --desktop-title-to-description: 114px;
   --desktop-description-to-bottom: 134px;
   --desktop-description-width: 491px;
 
+  /* Декоративные элементы */
   --decor-color: var(--accent-color);
   --decor-bg: var(--accent-color);
   --decor-text: var(--header-text);
