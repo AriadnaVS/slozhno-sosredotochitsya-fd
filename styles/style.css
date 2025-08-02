@@ -363,7 +363,6 @@ footer {
   }
 
   .header__theme-menu {
-    /*margin-top: var(--desktop-rec-to-menu);*/
     margin-right: calc(var(--desktop-section-padding) * 0.5);
     justify-self: center;
     align-self: start;
@@ -375,12 +374,10 @@ footer {
   .header__rec {
     position: absolute;
     top: 15px;
-    /* Поднимаем на 5px */
     right: 20px;
   }
 
   .header__content {
-    /*margin-top: var(--tablet-menu-to-content);*/
     margin-top: 0;
   }
 
@@ -439,7 +436,6 @@ footer {
     min-width: 0;
   }
 
-  /* Остальные секции должны остаться без изменений */
   .section_type_columns {
     display: grid;
     grid-template-columns: minmax(150px, 314px) minmax(300px, 1fr);
