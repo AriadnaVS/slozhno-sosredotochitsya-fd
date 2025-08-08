@@ -12,7 +12,6 @@ body {
   margin: 0 auto;
 }
 
-
 h1,
 h2,
 h3,
@@ -21,7 +20,6 @@ h5,
 h6,
 p {
   margin: 0;
-  
 }
 
 /* Декоративные уголки */
@@ -31,7 +29,7 @@ p {
 
 .decorated-zone::before,
 .decorated-zone::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
@@ -51,9 +49,7 @@ p {
   border-left: 1px solid var(--decor-color);
 }
 
-
-.header__theme-menu-button
-{
+.header__theme-menu-button {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
@@ -64,14 +60,13 @@ p {
   block-size: 26px;
 }
 
-
 .accent-link {
   position: relative;
   display: inline-block;
   text-decoration: none;
   line-height: 1.3;
   color: var(--text-color);
-  text-shadow: 2px 2px 0 var(--accent-color);;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .accent-link:hover {
@@ -89,7 +84,6 @@ p {
   outline-offset: 2px;
   border-radius: 2px;
 }
-
 
 /* Стили для выделенного текста */
 .title-decor {

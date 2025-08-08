@@ -9,31 +9,31 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-    --main-bg-color: var(--light-bg-color);
-    --accent-color: var(--light-accent);
-    --text-color: var(--light-text);
-    --title-color: var(--light-title);
-    --header-text: var(--light-header-text);
-    --bg-image: var(--bg-image-light);
-    --decor-color: var(--light-text);
-    --decor-bg: var(--light-accent);
-    --decor-text: var(--light-text);
-    --current-title-shadow: var(--light-title-shadow);
-    --button-hover: rgba(50, 49, 45, 0.4);
-    --header-description-bg: var(--light-accent);
-    --header-description-text: var(--light-text);
-    --menu-button-color: var(--light-accent);
-  }
-  
-  .theme-light .header__rec {
-    display: none;
-  }
-  
-    .header__title {
-      text-shadow: 2px 2px 0 var(--light-title-shadow);
-    }
+  --main-bg-color: var(--light-bg-color);
+  --accent-color: var(--light-accent);
+  --text-color: var(--light-text);
+  --title-color: var(--light-title);
+  --header-text: var(--light-header-text);
+  --bg-image: var(--bg-image-light);
+  --decor-color: var(--light-text);
+  --decor-bg: var(--light-accent);
+  --decor-text: var(--light-text);
+  --current-title-shadow: var(--light-title-shadow);
+  --button-hover: rgba(50, 49, 45, 0.4);
+  --header-description-bg: var(--light-accent);
+  --header-description-text: var(--light-text);
+  --menu-button-color: var(--light-accent);
+}
 
-  .theme-light .header__title,
-  .theme-light .accent {
-    text-shadow: 2px 2px 0 var(--light-title-shadow);
-  }
+.theme-light .header__rec {
+  display: none;
+}
+
+.header__title {
+  text-shadow: 2px 2px 0 var(--light-title-shadow);
+}
+
+.theme-light .header__title,
+.theme-light .accent {
+  text-shadow: 2px 2px 0 var(--light-title-shadow);
+}
