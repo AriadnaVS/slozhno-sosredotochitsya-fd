@@ -30,49 +30,46 @@
   --bg-image-light: url(/images/cover-image-light.png);
 
   /* Высоты блоков */
-  --mobile-header-height: 668px;
-  --tablet-header-height: 1024px;
-  --desktop-header-height: 768px;
-  --gallery-row-height-1: 192px;
-  --gallery-row-height-2: 230px;
-  --gallery-row-height-3: 318px;
-  --desktop-gallery-row-height-1: 260px;
-  --desktop-gallery-row-height-2: 315px;
-  --desktop-gallery-row-height-3: 433px;
+  --header-section-height-mobile: 668px;
+  --header-section-height-tablet: 1024px;
+  --header-section-height-desktop: 768px;
+  --gallery-row-height-small: 192px;
+  --gallery-row-height-medium: 230px;
+  --gallery-row-height-large: 318px;
+  --gallery-row-height-desktop-small: 260px;
+  --gallery-row-height-desktop-medium: 315px;
+  --gallery-row-height-desktop-large: 433px;
 
   /* Отступы */
-  --mobile-corner-offset: 10px;
-  --tablet-corner-offset: 20px;
-  --desktop-corner-offset: 20px;
+  --decor-corner-offset-mobile: 10px;
+  --decor-corner-offset-tablet: 20px;
+  --decor-corner-offset-desktop: 20px;
   --mobile-section-padding: 10px;
   --tablet-section-padding: 20px;
   --desktop-section-padding: 20px;
-  --mobile-margin: 30px 10px 10px 10px;
-  --tablet-margin: 60px 0px 20px 0px;
-  --desktop-margin: 0px 20px 20px 20px;
 
   /* REC элемент */
   --rec-icon-size: 9px;
   --rec-icon-offset: 8px;
 
   /* Позиционирование header (mobile) */
-  --mobile-rec-to-menu: 74px;
-  --mobile-menu-to-content: 68px;
-  --mobile-title-to-description: 51px;
+  --header-rec-to-menu-mobile: 56px;
+  --header-menu-to-content-mobile: 50px;
+  --mobile-title-to-description: 54px;
   --mobile-description-to-bottom: 45px;
   --mobile-description-width: 355px;
 
   /* Позиционирование header (tablet) */
-  --tablet-rec-to-menu: 190px;
-  --tablet-menu-to-content: 175px;
+  --tablet-rec-to-menu: 170px;
+  --tablet-menu-to-content: 160px;
   --tablet-title-to-description: 162px;
   --tablet-description-to-bottom: 183px;
   --tablet-description-width: 364px;
 
   /* Позиционирование header (desktop) */
-  --desktop-menu-to-content: 273px;
+  --desktop-menu-to-content: 259px;
   --desktop-title-to-description: 114px;
-  --desktop-description-to-bottom: 134px;
+  --desktop-description-to-bottom: 91px;
   --desktop-description-width: 491px;
 
   /* Декоративные элементы */
