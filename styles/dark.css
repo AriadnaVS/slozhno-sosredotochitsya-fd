@@ -19,12 +19,12 @@
   --decor-color: var(--accent-color);
   --decor-bg: var(--accent-color);
   --decor-text: var(--header-text);
-  --current-title-shadow: var(--title-shadow);
   --button-hover: rgba(255, 0, 112, 0.4);
   --header-description-bg: var(--accent-color);
   --header-description-text: var(--header-text);
   --rec-color: var(--accent-color);
   --menu-button-color: var(--accent-color);
+
 }
 
 .theme-dark .header__rec,
@@ -32,4 +32,13 @@
 .theme-auto .header__rec,
 .theme-auto .header__rec::after {
   color: var(--rec-color);
+}
+
+.theme-dark .header__title,
+.theme-dark .accent {
+  text-shadow: 4px 4px 0 var(--title-shadow);
+}
+
+.theme-dark .header__rec {
+  display: flex;
 }

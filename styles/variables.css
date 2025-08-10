@@ -26,8 +26,8 @@
   --base-line-height: 1.3;
 
   /* Фоны */
-  --bg-image-dark: url(/images/cover-image-dark.png);
-  --bg-image-light: url(/images/cover-image-light.png);
+  --bg-image-dark: url(../images/cover-image-dark.png);
+  --bg-image-light: url(../images/cover-image-light.png);
 
   /* Высоты блоков */
   --header-section-height-mobile: 668px;
