@@ -139,9 +139,6 @@
   block-size: 26px;
 }
 
-.header__theme-menu-button {
-}
-
 .header__theme-menu-button_active {
   border-color: var(--decor-color);
   pointer-events: none;
