@@ -34,10 +34,6 @@
   color: var(--rec-color);
 }
 
-.theme-dark .header__title,
-.theme-dark .accent {
-  text-shadow: 4px 4px 0 var(--title-shadow);
-}
 
 .theme-dark .header__rec {
   display: flex;

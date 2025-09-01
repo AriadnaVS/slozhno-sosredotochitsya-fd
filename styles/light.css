@@ -26,25 +26,10 @@
   --section-title-color: var(--light-text);
 }
 
-.theme-light .section__title {
-  color: var(--section-title-color);
-}
-
 .theme-light .header__rec {
   display: none;
 }
 
-.theme-light .header__title {
-  text-shadow: 4px 4px 0 var(--light-title-shadow);
-}
-
-.header__title {
-  text-shadow: 4px 4px 0 var(--light-title-shadow);
-}
-
-.theme-light .accent {
-  text-shadow: 2px 2px 0 var(--light-title-shadow);
-}
 
 @media (prefers-color-scheme: light) {
   :root {
