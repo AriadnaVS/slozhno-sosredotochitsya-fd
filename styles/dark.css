@@ -15,6 +15,7 @@
   --text-color: #f1b2ce;
   --title-color: #db00ff;
   --header-text: #000028;
+  --section-title-color: #ff0070;
   --bg-image: var(--bg-image-dark);
   --decor-color: var(--accent-color);
   --decor-bg: var(--accent-color);
@@ -24,7 +25,6 @@
   --header-description-text: var(--header-text);
   --rec-color: var(--accent-color);
   --menu-button-color: var(--accent-color);
-
 }
 
 .theme-dark .header__rec,
@@ -33,7 +33,6 @@
 .theme-auto .header__rec::after {
   color: var(--rec-color);
 }
-
 
 .theme-dark .header__rec {
   display: flex;

@@ -7,6 +7,7 @@
   /* Цвета */
   --main-bg-color: #000028;
   --accent-color: #ff0070;
+  --section-title-color: #ff0070;
   --text-color: #f1b2ce;
   --title-color: #db00ff;
   --header-text: #000028;
@@ -16,7 +17,8 @@
   --light-bg-color: #fff1f7;
   --light-accent: #ff8dcb;
   --light-text: #353430;
-  --light-title: #ffc2e6;
+  --light-title: #353430;
+  --light-header-title: #FFC2E6;
   --light-header-text: #353430;
   --light-title-shadow: #ff8dcb;
 

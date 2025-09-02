@@ -12,7 +12,8 @@
   --main-bg-color: var(--light-bg-color);
   --accent-color: var(--light-accent);
   --text-color: var(--light-text);
-  --title-color: var(--light-title);
+  --title-color: var(--light-header-title);
+  --section-title-color: var(--light-text);
   --header-text: var(--light-header-text);
   --bg-image: var(--bg-image-light);
   --decor-color: var(--light-text);
@@ -30,27 +31,24 @@
   display: none;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --main-bg-color: var(--light-bg-color);
     --accent-color: var(--light-accent);
     --text-color: var(--light-text);
-    --title-color: var(--light-title);
+    --title-color: var(--light-header-title);
+    --section-title-color: var(--light-text);
     --header-text: var(--light-header-text);
     --bg-image: var(--bg-image-light);
     --decor-color: var(--light-text);
     --decor-bg: var(--light-accent);
     --decor-text: var(--light-text);
     --current-title-shadow: var(--light-title-shadow);
+    --button-hover: rgba(50, 49, 45, 0.4);
     --header-description-bg: var(--light-accent);
     --header-description-text: var(--light-text);
     --menu-button-color: var(--light-text);
     --section-title-color: var(--light-text);
-  }
-
-  :root:not(.theme-dark) .section__title {
-    color: var(--section-title-color);
   }
 
   .header__rec {

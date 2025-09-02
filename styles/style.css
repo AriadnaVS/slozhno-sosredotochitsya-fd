@@ -188,7 +188,7 @@
 }
 
 .section__title {
-  color: var(--accent-color);
+  color: var(--section-title-color);
   font-size: var(--base-font-size);
 }
 
@@ -204,7 +204,6 @@
 }
 
 .card__title {
-  font-size: var(--base-font-size);
   font-weight: normal;
 }
 
@@ -214,10 +213,6 @@
 
 .section__content:last-child {
   padding: 0;
-}
-
-.accent {
-  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .section__wrapper .section__subtitle {
@@ -277,7 +272,7 @@
 }
 
 /* Общие стили для планшетов и десктопов (>=768px) */
-@media (width >= 768px) {
+@media (width >=768px) {
   .header__title {
     padding: 0;
   }
@@ -321,7 +316,7 @@
 }
 
 /* Планшеты (768px-1023px) */
-@media (768px <= width < 1024px) {
+@media (768px <=width < 1024px) {
   .header {
     height: var(--header-section-height-tablet);
     max-height: var(--header-section-height-tablet);
@@ -404,7 +399,7 @@
 }
 
 /* Десктоп (1024px+) */
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .header {
     height: var(--header-section-height-desktop);
     max-height: var(--header-section-height-desktop);
